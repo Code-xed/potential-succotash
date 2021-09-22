@@ -6,15 +6,18 @@
 "env": {
     "API_ID": {
       "description": "A secret key for verifying the integrity of signed cookies.",
-      "value": "35673"
+      "value": "35673",
+      "required": "True"
     },
     "API_HASH": {
       "description": "The number of processes to run.",
-      "value": "fgu22jgee6"
+      "value": "fgu22jgee6",
+      "required": "True"
     },
     "SESSION_STRING": {
       "description": "The Session String",
-      "value": "srtgdde#$-drygs"
+      "value": "srtgdde#$-drygs",
+      "required": "True"
     }
   }
 }
