@@ -1,0 +1,7 @@
+{
+  "name": "Pyrogram Sample Client Usage",
+  "description": "A barebones Python app using Pyrogram",
+  "repository": "https://github.com/Code-xed/potential-succotash",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["python", "pyrogram", "telegram"]
+}
