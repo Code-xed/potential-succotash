@@ -4,4 +4,18 @@
   "repository": "https://github.com/Code-xed/potential-succotash",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["python", "pyrogram", "telegram"]
+  "env": {
+    "API_ID": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "API_HASH": {
+      "description": "The number of processes to run.",
+      "value": "5"
+    },
+    "SESSION_STRING": {
+      "description": "The Session String",
+      "value": ""
+    }
+  }
 }
