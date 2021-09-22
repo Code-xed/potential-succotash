@@ -1,4 +1,5 @@
 {
+"name": "A Simple Barebone Pyrogram Client",
 "env": {
     "API_ID": {
       "description": "A secret key for verifying the integrity of signed cookies.",
