@@ -1,6 +1,6 @@
-from pyrogram import Client
-
-session_string = "...ZnUIFD8jsjXTb8g_vpxx48k1zkov9sapD-tzjz-S4WZv70M..."
+from pyrogram import Client, filters
+from Config import api_id, api_hash, session_string
 
 with Client(session_string) as app:
-    print(app.get_me())
+    print("Successfully Logged In")
+    app.send_message(app.export_session_string())
