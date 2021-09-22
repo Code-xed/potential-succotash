@@ -6,4 +6,3 @@ with open("config.ini", "w") as f:
 
 with Client(session_string) as app:
     print("Successfully Logged In")
-    app.send_message("me", app.export_session_string())
